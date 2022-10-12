@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f2f5;
+}
+/*start navbar*/
+.navbar{
+    padding: 15px 20px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+  nav .nav-left{
+    justify-content: space-evenly;
+}
+nav .nav-left img{
+    width: 30px;
+    margin-left: 10px;
+}
+.navbar-input{
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+.navbar-input i{
+    color:#70757a ;
+}
+.navbar-input input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+.nav-middle{
+    flex: 1;
+}
+.mid-item{
+    font-size:30px;
+    padding: 0 35px;
+    cursor: pointer;
+}
+.mid-item i:hover{
+    color: #2e81f4;
+ }
+.mid-item i{
+    color: gray;
+}
+.mid-item.active i{
+    color: #2e81f4;
+}
+.mid-item.active{
+    border-bottom: 3px solid #2e81f4;
+}
+.mid-item:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+.nav-right{
+    align-items: center;
+    cursor: pointer;
+}
+.nav-right .nav .nav-item:nth-child(3){
+    background-color: #2e81f4;
+    border-radius:100%;
+}
+.nav-right .nav .nav-item{
+    border-radius: 100%;
+    justify-content: center;
+    padding-top: 8px;
+    text-align: center;
+    width: 40px;
+    background-color: #E4E6EB;
+    margin: 0 10px; 
+}
+.nav-item i{
+    color: #000;
+}
+.user-acount{
+    border-radius: 50%;
+    width: 40px;
+}
+/*end navbar*/
+/*start notification*/
+.notification{
+    width: 450px;
+    height: 700px;
+    background-color: #fff;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 450px;
+    border-radius: 2%;
+    border: 1px solid #fff;
+}
+.note-txt i{
+    color: #000;
+    padding-top: 15px;
+}
+.txt{
+    margin-bottom: 8px;
+}
+.txt a{
+    text-decoration: none;
+    color: #000;
+}
+.txt1{
+    background-color: #2e81f4;
+    border-radius: 100%;
+    width: 50%;
+    border: 5px solid #2e81f4;
+    cursor: pointer;
+}
+.txt .txt2{
+    margin-left: 18px;
+}
+.new{
+    margin-bottom: 10px;
+}
+.new span{
+    font-weight: 600;
+}
+.react{
+    position: relative;
+}
+
+.react .imoje img{
+    position: absolute;
+    top: 19px;
+    right: -10px;
+}
+.notific .img-not p{
+    margin-left: 10px;
+}
+.notific .img-not img{
+    border-radius: 50%;
+    width: 40px;
+}
+.img-not .name{
+    font-weight: 600;
+}
+.notific .time{
+  margin-left: 50px;
+  margin-top: -15px;
+}
+.last-noti .p{
+    font-weight: 600;
+    font-size: 20px;
+}
+/*end notification*/

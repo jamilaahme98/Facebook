@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(240, 242, 245);
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+.row .col-md-6 .logo {
+ padding: 112px 0 6px;
+}
+.row .col-md-6 .logo img{
+    height: 106px;
+    margin: -28px;
+}
+.row .col-md-6 .para{
+    font-weight: 400;
+}
+.row .col-md-6 .para h2{
+    font-size: 24px;
+    color: #1c1e21;
+    line-height: 28px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding: 0 0 20px;
+}
+.row .col-md-5 .content{
+    display: block;
+    height: 456px;
+    justify-content: center;
+    width: 396px;
+}
+.col-md-5 .box{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    padding: 35px 35px 6px;
+}
+.form-control{
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    color: #1d2129;
+}
+.btn{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+.btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.row .col-md-5 .forgot{
+    font-weight: 400;
+}
+.row .col-md-5 .forgot a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.row .col-md-5 .forgot a:hover{
+    text-decoration: underline;
+}
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.row .col-md-5 .btn2{
+    display: flex;
+}
+.row .col-md-5 .btn2 a{
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    text-decoration: none;
+    background-color: #42b72a;
+    background-color: #42b72a;
+    color: #fff;
+    justify-content: center;
+    margin: auto;
+}
+.page{
+    color: #1c1e21;
+    text-align: center;
+    line-height: 17px;
+    display: block; 
+    padding-top: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    margin-top: 28px;
+}
+.page  a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(28, 30, 33);
+}
+.page a:hover{
+    text-decoration: underline;
+}
+
